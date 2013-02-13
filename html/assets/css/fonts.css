@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'westpac_helparegular';
+    src: url('../fonts/westpachelpa-webfont.eot');
+    src: url('../fonts/westpachelpa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/westpachelpa-webfont.woff') format('woff'),
+         url('../fonts/westpachelpa-webfont.ttf') format('truetype'),
+         url('../fonts/westpachelpa-webfont.svg#westpac_helparegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.widgetFull h2{
+	font-family: 'westpac_helparegular';
+}
+
+.widgetHalf h2{
+	font-family: 'westpac_helparegular';
+}
+
+#intro h1
+{
+	font-family: 'westpac_helparegular';
+}
+
+#intro p 
+{
+	font-family: 'westpac_helparegular';
+}
