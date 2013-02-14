@@ -32,6 +32,7 @@ Modernizr.load([
 		// Site Meka
 		'assets/js/utils/StringUtils.js',
 		'assets/js/utils/PageUtils.js',
+		'assets/js/utils/NumberUtils.js',
 		'assets/js/utils/FlashUtils.js',
       	'assets/js/meka/Main.js',
 		'assets/js/meka/controller/AddressController.js',
