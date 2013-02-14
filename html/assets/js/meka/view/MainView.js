@@ -166,9 +166,9 @@ jsScrape.youtube.view = function()
 				setTimeout(loadVideo(i), 50*i);
 			}		
 			
-			$('#wrapper').append('<a href="javascript:void(0)" class="play">Play</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-			$('#wrapper').append('<a href="javascript:void(0)" class="pause">Pause</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-			$('#wrapper').append('<a href="javascript:void(0)" class="again">Again</a>');	
+			$('#wrapper').append('<span><a href="javascript:void(0)" class="play">Play</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>');
+			$('#wrapper').append('<span><a href="javascript:void(0)" class="pause">Pause</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>');
+			$('#wrapper').append('<span><a href="javascript:void(0)" class="again">Again</a></span>');	
 			
 			$('a.play').click(function()
 			{

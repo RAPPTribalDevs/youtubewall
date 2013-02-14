@@ -13,7 +13,8 @@ body, html
 	
 #wrapper 
 {
-	
+	font-size:0;
+	line-height:0;
 }
 
 #preloader
@@ -28,4 +29,12 @@ iframe
 {
 	margin:0;
 	padding:0;	
+}
+
+span
+{
+	font-size:14px;
+	line-height:18px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+	
 }

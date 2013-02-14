@@ -53,7 +53,7 @@ jsScrape.youtube.model = function()
 		{
 			words += '/%7Bhttp%3A%2F%2Fgdata.youtube.com%2Fschemas%2F2007%2Fkeywords.cat%7D'+wordsArray[i];
 		}
-		words += '?alt=json&format=5';
+		words += '?max-results=35&alt=json&format=5';
 		console.log('words : ' + _dataPath[1]+words);
 		$.ajax({
 		 url: _dataPath[1]+words,
